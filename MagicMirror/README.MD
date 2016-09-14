@@ -117,7 +117,6 @@ Contributions of all kinds are welcome, not only in the form of code but also wi
 
 ## Versions
 
-
 Please keep the following in mind:
 
 - **Bug Reports**:  Make sure you're running the latest version. If the issue(s) still persist: please open a clearly documented issue with a clear title.
