@@ -10,13 +10,13 @@ $(document).ready(function()
     unit: 'C',
     success: function(weather) 
 	{
-    iconoActual   = '<i class="icon-'+weather.code+'" style="font-size: 165px;"></i>'; 
+          iconoActual    = '<i class="icon-'+weather.code+'" style="font-size: 165px;"></i>'; 
 	  
-	  tempActual    = '<h2>'+weather.temp+' '+weather.units.temp+'º</h2>'; 	  
-	  tempMin  		= '<h4>'+weather.low+' '+weather.units.temp+'º</h4>'; 
-	  tempMax  		= '<h4>'+weather.high+' '+weather.units.temp+'º</h4>'; 
+	  tempActual     = '<h2>'+weather.temp+' '+weather.units.temp+'º</h2>'; 	  
+	  tempMin  	 = '<h4>'+weather.low+' '+weather.units.temp+'º</h4>'; 
+	  tempMax  	 = '<h4>'+weather.high+' '+weather.units.temp+'º</h4>'; 
 	  
-	  ciudadActual  = '<h4>'+weather.city+' , '+weather.country+'</h4>'; 
+	  ciudadActual   = '<h4>'+weather.city+' , '+weather.country+'</h4>'; 
 	  
 	  forecastIcon1  = '<h4><i class="icon-'+weather.forecast[1].code+'"style="font-size: 90px;"></i></h4>'; 
 	  forecastIcon2  = '<h4><i class="icon-'+weather.forecast[2].code+'"style="font-size: 90px;"></i></h4>';
@@ -37,8 +37,8 @@ $(document).ready(function()
 	  forecastTemp5  = '<h5>'+weather.forecast[5].low+'º-'+weather.forecast[5].high+'º</h5>';  
 	  
 	  $("#iconoActual").html(iconoActual);
-	  $("#tempActual").html(tempActual);
 	  
+	  $("#tempActual").html(tempActual);
 	  $("#tempMin").html(tempMin);
 	  $("#tempMax").html(tempMax);
 	  
@@ -61,8 +61,7 @@ $(document).ready(function()
 	  $("#forecastTemp3").html(forecastTemp3);
 	  $("#forecastTemp4").html(forecastTemp4);
 	  $("#forecastTemp5").html(forecastTemp5);
-	
-	
+
     },
     error: function(error) 
 	{
