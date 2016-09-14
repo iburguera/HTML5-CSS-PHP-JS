@@ -6,6 +6,8 @@ This project is based on the original **MagicMirror²** that is built by the cre
 
 **MagicMirror** is an open source modular smart mirror platform that uses [SimpleWeather](http://simpleweatherjs.com/) as a Weather wrapper and [Moment](http://momentjs.com/) as current time wrapper. 
 
+<Falta por documentar todo lo de abajo y actualizarlo>
+
 ## Table Of Contents
 
 - [Usage](#usage)
@@ -116,6 +118,9 @@ The community around the MagicMirror² is constantly growing. We even have a [fo
 Contributions of all kinds are welcome, not only in the form of code but also with regards bug reports and documentation.
 
 ## Versions
+ - [x] Version 0 - Naive Solution - HTML5 - JS - CSS
+ - [ ] Version 1 - Android Aplication
+ - [ ] Version 2 - iOS Aplication
 
 Please keep the following in mind:
 
