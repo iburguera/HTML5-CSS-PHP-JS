@@ -1,4 +1,4 @@
-# HTML5-CSS3-PHP-JS
+# Currency Converter
 
 * Euro - Dollar
 * Euro - Pound
